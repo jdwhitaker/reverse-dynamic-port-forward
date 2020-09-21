@@ -1,5 +1,9 @@
 # reverse-dynamic-port-forward
-This is a simple scriupt to make it easier to create reverse dynamic port forwards with SSH.
+This is a simple script to make it easier to create reverse dynamic port forwards with SSH. 
+
+If SSH is allowed inbound on the victim, you don't need to use this. You can perform a standard (forward) dynamic port forward from kali to the victim.
+
+If SSH is not allowed inbound,  you can use this script to more easily provision and destroy a temporary user for a reverse connection.
 
 ## Setup
 
